@@ -1,0 +1,195 @@
+@charset "UTF-8";
+@import "_fonts";
+@import "_normalize";
+@import "_vars";
+@import "_slick";
+@import "_slick-theme";
+@import "_preloader";
+//@import "_sprite";
+
+
+
+*{
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: $grey_D;
+    font-size: 14px;
+    line-height: 24px;
+    //background-color: $white;
+    //height: 5000px;
+    
+}
+
+body {
+    //    padding-bottom: 500px;
+    position: relative;
+    &.oh {
+        overflow: hidden;
+        margin-right: 14px;
+    }
+}
+
+a:hover,
+button:hover {
+    color: $white;
+}
+.w100 {
+    width: 100%;
+}
+button {
+    transition: 0.3s;
+    &:after, &:before {
+       transition: 0.3s; 
+    }
+}
+a {
+    outline: none;
+    text-decoration: none;
+    transition: 0.3s;
+
+    &:after, &:before {
+       transition: 0.3s; 
+    }
+}
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wr {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+button, a {
+    outline: none;
+    cursor: pointer;
+}
+.noselect {
+  -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
+}
+
+input, textarea {
+    transition: 0.3s;
+    outline: none;
+}
+textarea {
+    resize: none;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #7B7B7B;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #7B7B7B;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #7B7B7B;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #7B7B7B;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+//    color: $orangeP;
+}
+input:focus::-moz-placeholder { /* Firefox 19+ */
+//    color: $orangeP;
+}
+input:focus:-ms-input-placeholdes { /* IE 10+ */
+//    color: $orangeP;
+}
+input:focus:-moz-placeholder { /* Firefox 18- */
+//    color: $orangeP;
+}
+
+::selection {
+//	background: transparentize($main_gold, 0.5);
+}
+
+a {
+	cursor:  pointer;
+    color: $grey_D;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+::-webkit-scrollbar {
+	-webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+	width: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+	height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: $black;
+	border-radius: 0px;
+//	border: 2px solid $yell;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 0px;
+	background-color: $grey_l;
+}
+
+
+
+@import "_main.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
